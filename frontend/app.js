@@ -1,4 +1,4 @@
-const API = (window.AYUKTA_API_URL || "http://localhost:8000").replace(/\/$/, "");
+const API = (window.AYUKTA_API_URL || "https://ayukta-vishal.onrender.com").replace(/\/$/, "");
 let products = [];
 let cart = [];
 let filter = "All";
